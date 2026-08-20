@@ -1,0 +1,6 @@
+- **Amazon Bedrock Foundation Models (FMs)**
+- **Agents for Bedrock**
+- **Knowledge Bases for Bedrock**
+- **Guardrails for Bedrock**
+- **Model Customization (fine-tuning & continued pretraining)**
+- **Provisioned Throughput**
