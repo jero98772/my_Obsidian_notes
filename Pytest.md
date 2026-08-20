@@ -1,0 +1,1 @@
+- Descubre automáticamente archivos y funciones de prueba.
