@@ -330,7 +330,16 @@ RHS right hand side
 
 Sadow Price
 es una tasa de cambio
+**Shadow Price (Precio Sombra)** Es la tasa de cambio instantánea en el valor de la función objetivo óptima ($Z$) por cada unidad de incremento en el lado derecho ($RHS$) de una restricción. Indica cuánto está dispuesto a pagar el modelo por obtener una unidad adicional de un recurso limitante.
+
+$\frac{\text{Unidades de } Z}{\text{Unidades del recurso}}$
+
 olgura
+**Holgura y Exceso (Slack & Surplus)**
+
+- **Holgura (_Slack_):** Cantidad de recurso que queda sin utilizar en una restricción de tipo menor o igual ($\le$).
+$$\text{Holgura } (s) = RHS - \text{Recurso Consumido}$$
+- **Exceso (_Surplus_):** Cantidad en la que se sobrepasa el requerimiento mínimo en una restricción de tipo mayor o igual ($\ge$).
 
 # Clase 5
 
@@ -350,7 +359,7 @@ max z = sum (cj)
 
 conjuntos e indices el vocabulario de la generalidad
 
-COnjuntos letras mayusculas
+Conjuntos letras mayusculas
 
 Conjuntos
 parametros
@@ -379,8 +388,12 @@ Max z = sum (cj,xj)  jeJ
 
 Restricciones
 sum jEJ sum (aij,xj) < bi
-
+```python
 import  pulp as pl
+
+#insanciar modelo
+
+prob =pl.LpProblem("Maximizar utilidad",pl.LpMaximize)
 
 J =["Natural","premium"]
 I = ["Fruta","maquina","empaque"]
@@ -389,3 +402,145 @@ b={"Fruta":90,"maquina":40,"empaque":30}
 a={"Fruta":{"Natural":2.0,"premium":3.0},"maquina":{"Natural":0.5,"premium":1.0},"empaque":{"Natural":1.0,"premium":0.5}}
 
 x = {"x"+j:pl.LpVariable("x_"+j,lowBound=0) for j in J}
+x = {j: pl.LpVariable('x_'+j,LowBound=0) for j in J}
+
+#funcion objetivo
+
+prob+= pl.lpSum(c[j]*x[j] for j in J)
+
+#restricciones
+for i in I:
+	prob+= pl.lpSum(c[j]*x[j] for j in J) <=b[i],"restriccion_"+i
+prob.solve()
+#imprimir solucion optima
+print("utilidad", prob.objetive.value())
+print("litros natural", x["Natural"].varValue())
+print("litros natural", x["Premium"].varValue())	
+```
+## Revision quiz
+
+
+
+4.4 estubo bien
+
+nos equivocamos en la segunda restriccion de   politicas de marca
+
+no era S+I = 100%; I>=40%,
+
+era I/(A+I) >= 0.4 ,I>=0.4(S+I)
+
+Cual es el precio sombra de las horas del taller? justifique
+
+El precio sombra es cero por que no cambio, No indefinido, por que no cambio
+
+## Clase 6
+
+Modelo algrebraico
+
+antes se veia con numeros ya no, se utilizan elementos, simbolizados por letras mayusculas, para producir estos productos nesesitamos recursos, tengo que usar todos los elementos en terminos de los conjuntos
+
+Aij coenficiente tecnologivo
+cuanto es el consumo del recurso i por cada una unidad de producto j que voy a producir
+
+Cuales son las variables de decicion
+
+Modelo canonico de mescla de productos
+
+$Maximizar z \sum_{j\in J} j$
+
+
+es el mismo modelo para todo
+
+para todo
+
+## Clase 7
+3 patrones que resuelva cientos de problema
+
+el modelo algebraico describe la estructura de un tipo de problema en la practica esa estructura se repite una y otra vez con distintos datos
+
+Familias de problema 
+
+mesclas,
+min costo
+cuanto producir de cada producto
+
+blending
+en que proporcion mesclar 
+
+transporte
+min costo
+
+multi periodo
+min costo
+
+Mescla de ingredientes
+
+ingredientes,proteina,grasa,costo ($/KG)
+maiz,9%,4%,800
+soya 44%,2%,2 200
+sorgo 8% ,3% ,600
+
+proteina minimo 18%
+grasa maximo 6%
+
+La empresa quiere el concentrado mas barato por kilogramo que compla las 2 especificaciones
+
+Defina
+Conjuntos
+Parametros
+y variables de decicion
+
+Conjunto
+IngredientesI,i
+Nutirentes:N,j
+
+Parametros
+$g_i$ Fraccion de grasa $i \in I$
+$p_i$ Fraccion de Proteina $i \in I$ 
+
+Realment es
+$f_{ij}$ Fraccion en el ingrediente de  $i \in I$ del nutriente  $j\in N$
+
+$c_i$ Fraccion de Kg $i \in I$
+
+$l_i$ Fraccion minimo del  nutriete $j \in N$ en la mezcla
+$u_i$ Fraccion Maximo del  nutriete $j \in N$ en la mezcla
+
+$x_i$ Kilos del ingrediente $i\in I$ en un Kg de mescla
+Objetivo
+min Z = $\sum_{i \in I}{c_i,x_i}$
+Restricciones
+ $l_j\leq \sum_{i\in I}f_{ij}x_i \leq u_j \forall j \in N$ 
+
+
+Modelo 2 Problema del transporte
+
+Origen, oferta (Ton)
+Medellin 300
+Bogota 500
+
+Destino demanda (Ton)
+Cali 200
+Barranquilla 350
+Bucaramanga 150
+
+Costo de transporte ($/ton), cali,barranquilla, bucaramanga
+Medellin,850,1200,920
+Bogota,1100,980,760
+
+La oferta total 800 ton supera la demanda total 700 ton de modo que no todas las plantas tendran  que despachar todo lo que pueden
+
+Debemos hayar
+
+Conjuntos
+Parametros
+Variables de desicion
+
+Conjuntos
+CiudadOrigen , O,o
+CiudadDestino ,D ,o
+
+Parametros
+$a_o$ Ofererta disponible en el origen o
+$b_d$ Demanda del destino d
+$x_{od}$ Toneladas enviadas desde el origen al destiono

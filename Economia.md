@@ -416,6 +416,81 @@ Dashboard macro con datos reales
 datos del Banco Mundial o FRED (APIs gratuitas) de crecimiento, inflación y desempleo de uno o varios países y visualizas el ciclo económico
 juego de política económica,El usuario mueve impuestos, subsidios y controles de precio, y un modelo macro simplificado le muestra el efecto en crecimiento, inflación y desempleo.
 
+# Clase 4
+
+Parcial
+
+flujo de la economia
+
+las Escuelas economica
+
+Lunes 31 agosto parcial 20%
+Cap 1 introduccion
+Cap 2 micro economia
+
+escuelas el parcial y taller de micro
+
+Competencia perfecta es la situacion del mercado donde las empresas carecen de poder para manipular el precio , precio aceptables y se da una maximisacion de bienestar y se da una minimizacion del bienestar esto resulta en una situacion ideal de los mercados de los bioenes y servicios  donde la interaccion de la oferta y demanda determina el precio
+Cuando cambiamos
+
+Competencia imperfecta
+no se emplea libremente por la oferta y la demabda, debe haber un balance  en los precios, el bienestar de consumidor va ser menor
+
+competencia perfecta, zanahorias
+competencia monopolisitca, restaurantes
+obligopolio , carros
+monopolio epm
+
+
+ obligopolio ,Teoria de juegos (nada en el parcial)
+
+el concepto de elasticidad mide la amplitud de la variacion de una variable cuando varia otra variable, de la que depenende
+este concepto se amplia las curvas de oferta para medir la variaciones de las variables que las determinan
+
+Demanda perfectamente elastica = infinito
+Demanda elastica (elastica > 1)
+demanda con elasticidad unitaria (elasticidad =1)
+demanda inelastica (elasticidad<1)
+demanda perfectamente inelastica (elasticidad<0)
+externalidad es un efecto colateral
+
+es nesesario o sustituto, puedo subir o bajar ese bien con esa formula
+
+$\frac{\frac{Q_2 - Q_1}{Q_1}}{\frac{P_2 - P_1}{P_1}}$
+
+
+![](https://s3-eu-west-1.amazonaws.com/rankia/images/valoraciones/0009/6745/elasticidad%20de%20la%20demanda.gif?1359028709)
+4 talleres
+ecuaciones
+
+Micro economia
+
+oferta y demanda
+grafica
+Variables
+tipos de bienes y servicios
+
+utilitarismo la escuela que trata de maximisar la felicidad y minimzar el dolor
+
+Como era el estado en el
+
+mercatilismo
+controlaba todo
+
+fisiocracia
+El "Árbitro" del Orden Natural
+
+marck
+el poder absoluto
+
+keynes
+es **protagónica, directora y estabilizadora**
+
+
+smith
+disminisaba el efecto del estado
+
+tipos 
 ## Modulos
 ### Simulador oferta/demanda Mano invisible · elasticidad matplotlib
 Simulador oferta/demanda

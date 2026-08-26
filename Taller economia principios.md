@@ -1,4 +1,4 @@
-1. A Smith le gustan los anacarados más que las almendras, y las almendras más que las nueces. Le gustan por igual las pecanas que las avellanas y prefiere las avellanas a las almendras. A partir de esta información y conociendo que las preferencias de este individuo son transitivas ponemos concluir:
+l1. A Smith le gustan los anacarados más que las almendras, y las almendras más que las nueces. Le gustan por igual las pecanas que las avellanas y prefiere las avellanas a las almendras. A partir de esta información y conociendo que las preferencias de este individuo son transitivas ponemos concluir:
 
 a) Prefiere las pecanas a los anacarados.
 
@@ -25,6 +25,8 @@ d) Juliana no comerá ni atún ni hamburguesas.
 2Ph=Pa
 P precio
 Eso significa que el atún es relativamente **barato para ella**.
+la TMS es **3** y la relación de precios es **2**
+Juliana valora el atún más de lo que el mercado lo valora relativamente. Por tanto, **seguirá aumentando el consumo de atún**.
 
 3. Si el precio de mercado es menor que el precio de equilibrio.
 
@@ -67,11 +69,11 @@ Un **bien inferior** es un bien cuya **demanda disminuye cuando aumenta el ingre
 8. Si usted fuera un vendedor de discos compactos y la situación del mercado se caracterizase por un exceso de oferta, sería incorrecto afirmar que:
 
 a. Se produce un incremento en los precios de los discos compactos.
-b. Debería disminuir el precio de los discos compactos hasta llegar al punto de equilibrio (esta).
+b. Debería disminuir el precio de los discos compactos hasta llegar al punto de equilibrio .
 c. El mercado se encuentra en una situación de excedente de discos compactos(esta).
 d. Debería aumentarse el precio de los discos compactos hasta llegar al punto de equilibrio (mm no si hay mas discos en oferta hay mas competencia por vender y gana el que venda mas barato, bonito y de calidad).
 
-chatgpt dice que la c y la d son validas
+
 
 9. Supongamos que el mercado de discos compactos se encuentra en equilibrio, y se produce una reducción en el ingreso de los consumidores. ¿Variará el punto de equilibrio?
 
@@ -158,7 +160,7 @@ pina
 a. Existe libre concurrencia.
 b. Los bienes son homogéneos(esta para mi tambien).
 c. Las empresas competitivas son precio-aceptantes(esta para mi).
-d. Existe información perfecta.
+d. Existe información perfecta. (la informacion no le importa a nadie)
 
 Segun la IA son todas, son correctas
 
@@ -310,3 +312,14 @@ d. La curva de demanda de café no se afecta por los cambios en el precio del t�
 $$\text{Elasticidad} = \frac{\% \text{ de cambio en la cantidad demandada}}{\% \text{ de cambio en el precio}}$$
 
 Preguntas no tan buenas 8, 3, 11,12,13,15,18,20,24
+
+$\frac{\frac{Q_2 - Q_1}{Q_1}}{\frac{P_2 - P_1}{P_1}}$
+
+
+EJERCICIO: Suponga que usted trabaja en una empresa que produce y vende computadores, donde la ecuación de demanda y oferta son: Ecuación de demanda: Q = 600 – 2P, Ecuación de oferta: Q = 2P + 100. Con base en esta información, responda las siguientes preguntas: (20%)
+
+A. Suponga que usted es el gerente general de la compañía y necesita decidir el precio y la cantidad de computadores que pondrán en venta. De acuerdo con lo anterior, encuentre el precio y cantidad de equilibrio de este bien (Graficar).
+
+b. Suponga que el gobierno decide imponer un precio máximo de $ 100 para los computadores. ¿Crearía un excedente o escasez de estos bienes si se venden a este precio? Cuantifique y grafique.
+
+C. Suponga que usted es el gerente de ventas de la compañía y está evaluando la posibilidad de aumentar el precio de los computadores en el mercado con el fin de incrementar los ingresos. Si desea aumentar el precio de $ 125 a $ 150, ocasionaría que la demanda de dichos computadores pase de 350 a 260, respectivamente. De acuerdo a lo anterior, encuentre la elasticidad-precio de la demanda y justifique si recomendaría aumentar el precio de los computadores y por qué.
