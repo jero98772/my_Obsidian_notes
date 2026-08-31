@@ -544,3 +544,34 @@ Parametros
 $a_o$ Ofererta disponible en el origen o
 $b_d$ Demanda del destino d
 $x_{od}$ Toneladas enviadas desde el origen al destiono
+
+## Clase 8
+Problema
+
+Conjuntos
+L:llantas {"Eco","Ref","inv","radial"} $L_i$
+M:meses {"oct","nov","Dic"} $M_j$
+T:Turnos {1,2} $T_k$
+Parametros
+$h_i$ Horas por llanta $i \in L$
+$v_{ij}$ ventas de la llanta $i \in L$ en el mes $j \in M$ 
+$d_{jk}$ hotas disponibles en el mes $j \in M$ en el turno $k \in T$ 
+$c_k$ costo mano de hobra en el turno  $k \in T$
+a costo alamcentamiento por mes
+$I_{ij}$ inbrntaio de la llanta $i \in L$ el final del ,es $j \in M$
+
+Variables de decision
+
+$X_{ijk}$ unidades a  fabricar de la llanta  $i \in L$ en el mes $j \in M$ en el turno  $k\in T$
+
+Objetivo
+
+Min z = costo mano de obra + costo almacenamiento
+
+
+$\sum_{i \in L} \sum_{j \in M} \sum_{k \in T} h_i c_k x_{ijk}$ + $\sum_{i \in L} \sum_{j \in M} a I_{ij}$
+
+
+Restricciones Capacidad
+
+$\sum_{i\in L} h_i * X_{ijk}\leq d_{jk} \forall j \in M, \forall k \in k$ 

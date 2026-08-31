@@ -214,6 +214,11 @@ b. Libertad de entrada y salida en el mercado (no puede salir la monopolista).
 c. Cada empresa tiene poder limitado para fijar el precio del producto(en la monopolista solo hay una empresa gigante).
 d. Los bienes son homogéneos (esta).
 
+
+Mercado atomizado
+
+Un **mercado atomizado** (o fragmentado) es una estructura de mercado caracterizada por la presencia de un número muy elevado de pequeños compradores y vendedores, donde ninguno de ellos posee la cuota de mercado necesaria para influir de manera individual en el precio o las condiciones del mercado.
+
 25. La discriminación de precios que practican algunas empresas requiere que:
 A. La demanda sea homogénea
 B. Poder identificar “segmentos” de los posibles compradores (esta)
@@ -268,7 +273,7 @@ d) El precio que se fija es independiente de la elasticidad de demanda.
 (ambigua)
 el uno es la variable que representa la estabilidad de la elasticidad,el
 
-31. La cerveza y la pizza son complementarios porque regularmente se disfrutan juntas. Cuando el precio de la
+32. La cerveza y la pizza son complementarios porque regularmente se disfrutan juntas. Cuando el precio de la
 cerveza se incrementa, ¿qué sucede con la oferta, la demanda, la cantidad ofrecida, la cantidad demandada y el
 precio en el mercado de la pizza?
 a) Para un mismo precio la cantidad ofrecida permanece igual, para un mismo precio la cantidad demandada
@@ -283,21 +288,21 @@ demandada y ofrecida disminuye, y disminuye el precio en el mercado de la pizza
 
 es la c y la d son la misma
 
-31. Si gracias a ciertos avances tecnológicos se ha conseguido disminuir el coste de producción de un bien, esto
+33. Si gracias a ciertos avances tecnológicos se ha conseguido disminuir el coste de producción de un bien, esto
 provocará:
 a. Un exceso de demanda.
 b. Un desplazamiento hacia la derecha de la curva de oferta de dicho bien (esta).
 c. Un desplazamiento de las curvas de oferta y de demanda.
 d. Ninguna de las anteriores
 
-32. Si la elasticidad precio de la demanda es 0.75 
+34. Si la elasticidad precio de la demanda es 0.75 
 a. Significa que la variación porcentual en la cantidad demandada es igual a la variación porcentual en el precio.
 b. Significa que la variación porcentual en la cantidad demandada es mayor a la variación porcentual en el precio. (esta)
 c. Significa que la variación porcentual en la cantidad demandada es menor a la variación porcentual en el
 precio.
 d. Significa que es elástica
 
-34. Suponiendo que el té es un bien sustitutivo del café, ¿qué sucede con la curva de demanda de café cuando aumenta el precio del té?
+35. Suponiendo que el té es un bien sustitutivo del café, ¿qué sucede con la curva de demanda de café cuando aumenta el precio del té?
 a. La curva de demanda de café se desplaza a la derecha.
 b. La curva de demanda de café no cambia por condiciones ceteris paribus.
 c. La curva de demanda de café se desplaza a la izquierda (este por que el cafe se mantiene al mismo precio y algunos compradores de te se van acomprar cafe).
@@ -319,6 +324,7 @@ $\frac{\frac{Q_2 - Q_1}{Q_1}}{\frac{P_2 - P_1}{P_1}}$
 EJERCICIO: Suponga que usted trabaja en una empresa que produce y vende computadores, donde la ecuación de demanda y oferta son: Ecuación de demanda: Q = 600 – 2P, Ecuación de oferta: Q = 2P + 100. Con base en esta información, responda las siguientes preguntas: (20%)
 
 A. Suponga que usted es el gerente general de la compañía y necesita decidir el precio y la cantidad de computadores que pondrán en venta. De acuerdo con lo anterior, encuentre el precio y cantidad de equilibrio de este bien (Graficar).
+
 
 b. Suponga que el gobierno decide imponer un precio máximo de $ 100 para los computadores. ¿Crearía un excedente o escasez de estos bienes si se venden a este precio? Cuantifique y grafique.
 

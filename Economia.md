@@ -362,7 +362,6 @@ duraderos
 no duraderos
 consumo
 
-
 ## EJERCICIO
 
 Suponga que usted trabaja en una empresa que produce y vende zapatos, zapatillas, donde se encuentra una **oferta** y una **demanda**:
@@ -460,6 +459,13 @@ $\frac{\frac{Q_2 - Q_1}{Q_1}}{\frac{P_2 - P_1}{P_1}}$
 
 
 ![](https://s3-eu-west-1.amazonaws.com/rankia/images/valoraciones/0009/6745/elasticidad%20de%20la%20demanda.gif?1359028709)
+
+1 unitaria , varia igual la cnatidad y el precio
+1 > 
+1 < inelastica, no hay sustitutos
+
+
+
 4 talleres
 ecuaciones
 
@@ -479,6 +485,7 @@ controlaba todo
 
 fisiocracia
 El "Árbitro" del Orden Natural
+mano afctura es estril, no tiene en cuenta la manofactura
 
 marck
 el poder absoluto
@@ -486,11 +493,69 @@ el poder absoluto
 keynes
 es **protagónica, directora y estabilizadora**
 
+mercantilista
+metales preciosos
+proteccionista
+tabla economica, como se relaciona los diferentes productos de la economia
 
 smith
-disminisaba el efecto del estado
+minisaba el efecto del estado
 
 tipos 
+
+
+flujo circular
+renta agragada
+
+jeremy betman
+
+
+sube la demanda derecha
+sube la oferta a la derecha
+
+bajara la oferta izquierda
+bajara la demanda izquierda
+
+cruzada de la demanda
+
+hay 2 bienen
+
+hay elasiticdad ingreso
+
+como se relacion los ingresos
+
+keyneciano la demanda agregada , jhon minar keynes , que el estado tiene que llegar a salvar a las personas
+
+bentam
+
+10 principios de la economica
+incentivos
+marginalidad
+mercados - oferta y demanda
+especializacion
+disyuntiva tema de eleccion 
+costo oportunidad
+
+estado
+inflacion
+pib
+disyuntiva  desempleo inflacion
+
+flujo circulacion
+
+elestacidad 
+minimo
+maximo
+
+frontera de produccion
+oferta y demanda
+
+30
+3 ejercicio
+mapa mental
+apariamiento
+
+
 ## Modulos
 ### Simulador oferta/demanda Mano invisible · elasticidad matplotlib
 Simulador oferta/demanda
